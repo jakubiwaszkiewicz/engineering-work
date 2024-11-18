@@ -1,0 +1,1 @@
+labelowanie zrobione chałupniczą metodą - na jednym komputerze zdjęcie na drugim excel, jedna reka jedna klawiatura, druga reka druga klawiatura
