@@ -29,7 +29,7 @@ BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 
 RESULTS_DIR = "results"
-RUN_FOLDER = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+RUN_FOLDER = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
 SAVE_DIR = os.path.join(RESULTS_DIR, RUN_FOLDER)
 
 os.makedirs(SAVE_DIR, exist_ok=True)
@@ -40,7 +40,8 @@ MODEL_FILE = os.path.join(SAVE_DIR, "model.pth")
 print(f"Wyniki będą zapisane w folderze: {SAVE_DIR}")
 
 #problem
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+DEVICE = torch.device("cpu")
 
 
 #wyłącza sie randomowo
