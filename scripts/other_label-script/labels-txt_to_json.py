@@ -17,11 +17,11 @@ for bee_frame in list_series_of_labels:
     'id': i,
     'have_honey': bee_frame[0],
     'have_seal': bee_frame[1],
-    'hardness': bee_frame[2],
+    'hardness': str(int(bee_frame[2])-1),
   })
   i += 1
 
 output_json = json.dumps(json_data, indent=4)
 
-with open("data.json", "w") as outfile:
+with open("labels.json", "w") as outfile:
     outfile.write(output_json)
