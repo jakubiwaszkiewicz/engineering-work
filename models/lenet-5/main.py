@@ -40,9 +40,11 @@ MODEL_FILE = os.path.join(SAVE_DIR, "model.pth")
 print(f"Wyniki będą zapisane w folderze: {SAVE_DIR}")
 
 #problem
-#DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DEVICE = torch.device("cpu")
+# DEVICE = torch.device("cpu")
+# na gpu jest wolniej niz na cpu
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+print(f"Używana jednostka obliczeniowa: {DEVICE}")
 
 #wyłącza sie randomowo
 
