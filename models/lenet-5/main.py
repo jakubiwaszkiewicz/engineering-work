@@ -1,31 +1,27 @@
 import os
 import json
 import numpy as np
+from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
 
 import torch.optim as optim
 import torchvision.transforms as transforms
-from torch.utils.data import DataLoader, random_split
-from sklearn.metrics import balanced_accuracy_score, confusion_matrix
-import matplotlib.pyplot as plt
+from torch.utils.data import DataLoader
+from sklearn.metrics import balanced_accuracy_score, confusion_matrix, classification_report
 from PIL import Image
 import datetime
-import random
 from tqdm import tqdm
 
-
-# Dane konfiguracyjne
-NUM_CLASSES_HARDNESS = 3  # Hardness
-NUM_CLASSES_HONEY = 2     # Honey presence
-NUM_CLASSES_CAPPED = 2    # Seal presence
+NUM_CLASSES_HARDNESS = 3
+NUM_CLASSES_HONEY = 2
+NUM_CLASSES_CAPPED = 2
 IMAGES_DIR = "../../photos/5-augmented"
 LABELS_FILE = "../../labels.json"
 
-NUM_EPOCHS = 100
-BATCH_SIZE = 32
+NUM_EPOCHS = 5
+BATCH_SIZE = 16
 # LIMIT_SAMPLES = 43400
-# Hiperparametry modelu
 LEARNING_RATE = 0.001
 
 RESULTS_DIR = "results"
@@ -37,22 +33,23 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 LOG_FILE = os.path.join(SAVE_DIR, "log.json")
 MODEL_FILE = os.path.join(SAVE_DIR, "model.pth")
 
+
 print(f"Wyniki będą zapisane w folderze: {SAVE_DIR}")
 
 #problem
 # DEVICE = torch.device("cpu")
 # na gpu jest wolniej niz na cpu
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+torch.cuda.empty_cache()
+torch.cuda.memory_summary(device=None, abbreviated=False)
 
 print(f"Używana jednostka obliczeniowa: {DEVICE}")
 
 #wyłącza sie randomowo
 
-# Załaduj etykiety
 with open(LABELS_FILE, "r") as labels_file:
     labels_data = json.load(labels_file)
 
-# Create a dictionary mapping image IDs to labels
 original_labels_dict = {}
 for item in labels_data:
     original_labels_dict[item["id"]] = (
@@ -61,11 +58,10 @@ for item in labels_data:
         int(item["have_seal"]),
     )
 
-# Pobierz wszystkie pliki z folderu
 extensions = tuple(extension.lower() for extension in [".png", ".jpg"])
-name_files = [file for file in os.listdir(IMAGES_DIR) if file.lower().endswith(extensions)]      
+name_files = [file for file in os.listdir(IMAGES_DIR) if file.lower().endswith(extensions)]     
+# do ograniczenia ilości zdjęć 
 # name_files = random.sample(name_files, min(len(name_files), LIMIT_SAMPLES))
-# print(f"Wybrano {len(name_files)} zdjęć do przetwarzania.")
 
 augmented_labels_dict = {}
 
@@ -84,8 +80,7 @@ def create_augmented_dataset(image_folder, labels_dict, transform):
         
         if transform:
             image = transform(image)
-
-        labels = labels_dict[image_file]
+        labels = np.array(labels_dict[image_file])
         dataset.append((image, torch.tensor(labels, dtype=torch.long)))
 
     return dataset
@@ -102,25 +97,29 @@ dataset_with_labels = create_augmented_dataset(
     transform=transform
 )
 
-train_size = int(0.8 * len(dataset_with_labels))
-test_size = len(dataset_with_labels) - train_size
+images, labels = zip(*dataset_with_labels)
 
-train_dataset, test_dataset = random_split(dataset_with_labels, [train_size, test_size])
+
+train_images, test_images, train_labels, test_labels = train_test_split(
+    images, labels, test_size=0.2, stratify=labels
+)
+
+train_dataset = list(zip(train_images, train_labels))
+test_dataset = list(zip(test_images, test_labels))
 
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True)
 
 print(f"Zbiór zdjęć załadowany: {len(dataset_with_labels)} obrazów.")
 print(f"Obrazy treningowe: {len(train_dataset)}, Obrazy testowe: {len(test_dataset)}")
+
 print("Etap danych zakończony...")
-# Define LeNet-5 model with multiple labels
-# Define LeNet-5 model with multiple labels
 class LeNet5MultiLabel(nn.Module):
     def __init__(self):
         super(LeNet5MultiLabel, self).__init__()
         
         # Feature extraction using Sequential
-        self.feature_extractor = nn.Sequential(
+        self.extractor = nn.Sequential(
             nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, stride=1, padding=1),
             nn.BatchNorm2d(32),
             nn.LeakyReLU(negative_slope=0.01),
@@ -143,10 +142,10 @@ class LeNet5MultiLabel(nn.Module):
         )
 
         # Compute the flattened size dynamically
-        self._flattened_size = self._get_flattened_size()
+        self._flattened_size = self.flatten_size()
 
         # Fully connected layers using Sequential
-        self.classifier = nn.Sequential(
+        self.hardness_classifier = nn.Sequential(
             nn.Linear(self._flattened_size, 1024),
             nn.LeakyReLU(negative_slope=0.01),
             nn.Dropout(0.5),
@@ -159,24 +158,55 @@ class LeNet5MultiLabel(nn.Module):
             nn.LeakyReLU(negative_slope=0.01),
             nn.Dropout(0.5),
 
-            nn.Linear(512, 5)  # Final output layer
+            nn.Linear(512, 3)  # Final output layer
         )
 
-    def _get_flattened_size(self):
+        self.honey_classifier = nn.Sequential(
+            nn.Linear(self._flattened_size, 1024),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(1024, 1024),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(1024, 512),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(512, 2)  # Final output layer
+        )
+
+        self.capped_classifier = nn.Sequential(
+            nn.Linear(self._flattened_size, 1024),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(1024, 1024),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(1024, 512),
+            nn.LeakyReLU(negative_slope=0.01),
+            nn.Dropout(0.5),
+
+            nn.Linear(512, 2)  # Final output layer
+        )
+
+    def flatten_size(self):
         with torch.no_grad():
-            dummy_input = torch.zeros(1, 3, 256, 256)  # Example input size
-            features = self.feature_extractor(dummy_input)
+            features = self.extractor(torch.zeros(1, 3, 256, 256))
             return features.numel()
 
     def forward(self, x):
-        x = self.feature_extractor(x)
-        x = x.view(x.size(0), -1)  # Flatten
-        x = self.classifier(x)
+        
+        x = self.extractor(x)
+        
+        x = x.view(x.size(0), -1)
 
-        # Outputs for multitask classification
-        hardness_output = torch.softmax(x[:, :3], dim=1)  # First 3 outputs
-        honey_output = torch.sigmoid(x[:, 3])             # Fourth output
-        capped_output = torch.sigmoid(x[:, 4])            # Fifth output
+        hardness_output = self.hardness_classifier(x)
+        honey_output = self.honey_classifier(x)
+        capped_output = self.capped_classifier(x)
 
         return hardness_output, honey_output, capped_output
 
@@ -184,14 +214,10 @@ class LeNet5MultiLabel(nn.Module):
 model = LeNet5MultiLabel().to(DEVICE)
 
 criterion_hardness = nn.CrossEntropyLoss()
-
-# odmiana entropi krzyzowej dla problemu binarnego
-criterion_honey = nn.BCEWithLogitsLoss()
-criterion_capped = nn.BCEWithLogitsLoss()
+criterion_honey = nn.CrossEntropyLoss()
+criterion_capped = nn.CrossEntropyLoss()
 
 optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE)
-
-scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=10)
 
 
 def train_model():
@@ -201,8 +227,8 @@ def train_model():
     for images, labels in tqdm(train_loader, desc="Training"):
         images = images.to(DEVICE)
         labels_hardness = labels[:, 0].to(DEVICE)
-        labels_honey = labels[:, 1].float().to(DEVICE)
-        labels_capped = labels[:, 2].float().to(DEVICE)
+        labels_honey = labels[:, 1].to(DEVICE)
+        labels_capped = labels[:, 2].to(DEVICE)
 
         hardness_output, honey_output, capped_output = model(images)
 
@@ -216,10 +242,8 @@ def train_model():
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-    scheduler.step(total_loss)
     return total_loss / len(train_loader)
 
-# Function to test the model
 def test_model():
     print("Rozpoczynam testowanie modelu...")
     model.eval()
@@ -232,14 +256,14 @@ def test_model():
         for images, labels in test_loader:
             images = images.to(DEVICE)
             labels_hardness = labels[:, 0].to(DEVICE)
-            labels_honey = labels[:, 1].float().to(DEVICE)
-            labels_capped = labels[:, 2].float().to(DEVICE)
+            labels_honey = labels[:, 1].to(DEVICE)
+            labels_capped = labels[:, 2].to(DEVICE)
 
             hardness_output, honey_output, capped_output = model(images)
 
             preds_hardness = hardness_output.argmax(dim=1)
-            preds_honey = (honey_output > 0.5).float()
-            preds_capped = (capped_output > 0.5).float()
+            preds_honey = honey_output.argmax(dim=1)
+            preds_capped = capped_output.argmax(dim=1)  
 
             all_labels_hardness.extend(labels_hardness.cpu().numpy())
             all_preds_hardness.extend(preds_hardness.cpu().numpy())
@@ -253,7 +277,6 @@ def test_model():
     acc_capped = balanced_accuracy_score(all_labels_capped, all_preds_capped)
     return acc_hardness, acc_honey, acc_capped, all_labels_hardness, all_preds_hardness
 
-# Function to log metrics
 def log_metrics(epoch, train_loss, test_accuracies, labels, preds):
     log_data = {
         "epoch": epoch + 1,
@@ -264,30 +287,29 @@ def log_metrics(epoch, train_loss, test_accuracies, labels, preds):
             "capped": test_accuracies[2],
         },
         "confusion_matrix_hardness": confusion_matrix(labels[0], preds[0]).tolist(),
+        "classification_report_hardness": classification_report(labels[0], preds[0], output_dict=True),
+        "classification_report_honey": classification_report(labels[1], preds[1], output_dict=True),
+        "classification_report_capped": classification_report(labels[2], preds[2], output_dict=True),
+
     }
     with open(LOG_FILE, "a") as f:
         json.dump(log_data, f)
         f.write("\n,")
 
-# Training and testing the model
-
 with open(LOG_FILE, "a") as f:
         f.write("[")
 
-# Training and testing the model
 for epoch in range(NUM_EPOCHS):
     train_loss = train_model()
     acc_hardness, acc_honey, acc_capped, labels_hardness, preds_hardness = test_model()
     test_accuracies = (acc_hardness, acc_honey, acc_capped)
     log_metrics(epoch, train_loss, test_accuracies, [labels_hardness], [preds_hardness])
     
-    # Zapis modelu po każdej epoce
     model_path = os.path.join(SAVE_DIR, f"model_epoch_{epoch + 1}.pth")
     torch.save(model.state_dict(), model_path)
     
     print(f"Epoch [{epoch+1}/{NUM_EPOCHS}], Loss: {train_loss:.4f}, Accuracies: Hardness={acc_hardness:.4f}, Honey={acc_honey:.4f}, Capped={acc_capped:.4f}")
 
-# Zapis ostatecznego modelu
 torch.save(model.state_dict(), MODEL_FILE)
 print(f"Model zapisany do {MODEL_FILE}")
 

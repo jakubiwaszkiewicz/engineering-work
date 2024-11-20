@@ -3,6 +3,7 @@ import numpy as np
 import os
 from skimage.feature import hog
 from tqdm import tqdm
+from bisect import bisect_left
 
 input_dir = '../../photos/5-augmented'
 output_dir = '../../photos/6-hog-rgb'
@@ -12,7 +13,19 @@ if not os.path.exists(output_dir):
 
 file_list = [f for f in os.listdir(input_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
+# Pobierz istniejące pliki w output_dir
+existing_files = sorted([f for f in os.listdir(output_dir) if f.startswith("HOG_RGB_")])
+
+def is_processed(filename, existing_files):
+    """Sprawdź, czy plik został już przetworzony, używając wyszukiwania binarnego."""
+    target = f"HOG_RGB_{filename}"
+    index = bisect_left(existing_files, target)
+    return index < len(existing_files) and existing_files[index] == target
+
 for filename in tqdm(file_list, desc="Processing images"):
+    if is_processed(filename, existing_files):
+        continue  # Pomiń przetwarzanie, jeśli plik już istnieje
+
     image_path = os.path.join(input_dir, filename)
     image = cv2.imread(image_path)
 
@@ -35,6 +48,7 @@ for filename in tqdm(file_list, desc="Processing images"):
         hog_image_rescaled = (hog_image - hog_image.min()) / (hog_image.max() - hog_image.min()) * 255
         hog_image_rescaled = hog_image_rescaled.astype(np.uint8)
         hog_channels.append(hog_image_rescaled)
+    
     merged_hog_image = np.vstack(hog_channels)
     hog_output_path = os.path.join(output_dir, f"HOG_RGB_{filename}")
     cv2.imwrite(hog_output_path, merged_hog_image)
