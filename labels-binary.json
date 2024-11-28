@@ -1,0 +1,2606 @@
+[
+    {
+        "id": 1,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 2,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 3,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 4,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 5,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 6,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 7,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 8,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 9,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 10,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 11,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 12,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 13,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 14,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 15,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 16,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 17,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 18,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 19,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 20,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 21,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 22,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 23,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 24,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 25,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 26,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 27,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 28,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 29,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 30,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 31,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 32,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 33,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 34,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 35,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 36,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 37,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 38,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 39,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 40,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 41,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 42,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 43,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 44,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 45,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 46,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 47,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 48,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 49,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 50,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 51,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 52,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 53,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 54,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 55,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 56,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 57,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 58,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 59,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 60,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 61,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 62,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 63,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 64,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 65,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 66,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 67,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 68,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 69,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 70,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 71,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 72,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 73,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 74,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 75,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 76,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 77,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 78,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 79,
+        "have_honey": "1",
+        "have_seal": "1",
+        "hardness": "1"
+    },
+    {
+        "id": 80,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 81,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 82,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 83,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 84,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 85,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 86,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 87,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 88,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 89,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 90,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 91,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 92,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 93,
+        "have_honey": "1",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 94,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 95,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 96,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 97,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 98,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 99,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 100,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 101,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 102,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 103,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 104,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 105,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 106,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 107,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 108,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 109,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 110,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 111,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 112,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 113,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 114,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 115,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 116,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 117,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 118,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 119,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 120,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 121,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 122,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 123,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 124,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 125,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 126,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 127,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 128,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 129,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 130,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 131,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 132,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 133,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 134,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 135,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 136,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 137,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 138,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 139,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 140,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 141,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 142,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 143,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 144,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 145,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 146,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 147,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 148,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 149,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 150,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 151,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 152,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 153,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 154,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 155,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 156,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 157,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 158,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 159,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 160,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 161,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 162,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 163,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 164,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 165,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 166,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 167,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 168,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 169,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 170,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 171,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 172,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 173,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 174,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 175,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 176,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 177,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 178,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 179,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 180,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 181,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 182,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 183,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 184,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 185,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 186,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 187,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 188,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 189,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 190,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 191,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 192,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 193,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 194,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 195,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 196,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 197,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 198,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 199,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 200,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 201,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 202,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 203,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 204,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 205,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 206,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 207,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 208,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 209,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 210,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 211,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 212,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 213,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 214,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 215,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 216,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 217,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 218,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 219,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 220,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 221,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 222,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 223,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 224,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 225,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 226,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 227,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 228,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 229,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 230,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 231,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 232,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 233,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 234,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 235,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 236,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 237,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 238,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 239,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 240,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 241,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 242,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 243,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 244,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 245,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 246,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 247,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 248,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 249,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 250,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 251,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 252,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 253,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 254,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 255,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 256,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 257,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 258,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 259,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 260,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 261,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 262,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 263,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 264,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 265,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 266,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 267,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 268,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 269,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 270,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 271,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 272,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 273,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 274,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 275,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 276,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 277,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 278,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 279,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 280,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 281,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 282,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 283,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 284,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 285,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 286,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 287,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 288,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 289,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 290,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 291,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 292,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 293,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 294,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 295,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 296,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 297,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 298,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 299,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 300,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 301,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 302,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 303,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 304,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 305,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 306,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 307,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 308,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 309,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 310,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 311,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 312,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 313,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 314,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 315,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 316,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 317,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 318,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 319,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 320,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 321,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 322,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 323,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 324,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 325,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 326,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 327,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 328,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 329,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 330,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 331,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 332,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 333,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 334,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 335,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 336,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 337,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 338,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 339,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 340,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 341,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 342,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 343,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 344,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 345,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 346,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 347,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 348,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 349,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 350,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 351,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 352,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 353,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 354,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 355,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 356,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 357,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 358,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 359,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 360,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 361,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 362,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 363,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 364,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 365,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 366,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 367,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 368,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 369,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 370,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 371,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 372,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 373,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 374,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 375,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 376,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 377,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 378,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 379,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 380,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 381,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 382,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 383,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 384,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 385,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 386,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 387,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 388,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 389,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 390,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 391,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 392,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 393,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 394,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 395,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 396,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 397,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 398,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 399,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 400,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 401,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 402,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 403,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 404,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 405,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 406,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 407,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 408,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 409,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 410,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 411,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 412,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "0"
+    },
+    {
+        "id": 413,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 414,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 415,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 416,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 417,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 418,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 419,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 420,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 421,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 422,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 423,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 424,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 425,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 426,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 427,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 428,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 429,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 430,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 431,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 432,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 433,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    },
+    {
+        "id": 434,
+        "have_honey": "0",
+        "have_seal": "0",
+        "hardness": "1"
+    }
+]

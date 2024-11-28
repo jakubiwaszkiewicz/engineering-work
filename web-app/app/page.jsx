@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import imageCompression from "browser-image-compression";
@@ -12,7 +11,6 @@ import {
   CardDescription,
 } from "../components/ui/card";
 import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert";
-import { Progress } from "../components/ui/progress";
 import { Upload, Image as ImageIcon, AlertTriangle } from "lucide-react";
 
 export default function ImageClassification() {
@@ -50,30 +48,60 @@ export default function ImageClassification() {
     accept: { "image/*": [] },
   });
 
-  const classifyImage = async () => {
+  const classifyImage = async (model) => {
     setIsClassifying(true);
-    // Simulating classification process
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-    setClassificationResult(
-      `Classification result using ${selectedModel}: Sample Class`
-    );
-    setIsClassifying(false);
+    setClassificationResult(null);
+
+    let chosenModel;
+    if (model == "GNB") {
+      chosenModel = "gnb";
+    } else if (model == "SVM") {
+      chosenModel = "sgdc";
+    } else {
+      chosenModel = "lenet";
+    }
+    console.log("Sending image to the server for classification...");
+    console.log(`http://127.0.0.1:5000/${chosenModel}`);
+    try {
+      const response = await fetch(`http://127.0.0.1:5000/${chosenModel}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          image_base64: image.split(",")[1],
+        }),
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        console.log("Classification successful:", result);
+        setClassificationResult(
+          `Zasklepienie: ${result.Prediction.Cap}, twardość: ${result.Prediction.Hardness}, miód: ${result.Prediction.Honey}`
+        );
+      } else {
+        console.error("Classification failed:", result.error);
+        setClassificationResult("Error during classification: " + result.error);
+      }
+    } catch (error) {
+      console.error("Error connecting to the server:", error);
+      setClassificationResult("Error connecting to the server");
+    } finally {
+      console.log("Classification completed");
+      setIsClassifying(false);
+    }
   };
 
   const deleteImage = () => {
     setImage(null);
-    setClassificationResult(null);
-    if (typeof window !== "undefined") {
-      localStorage.removeItem("classificationImage");
-    }
+    localStorage.removeItem("classificationImage");
   };
 
   return (
     <div className="container mx-auto p-4 max-w-4xl">
       <h1 className="text-4xl font-bold mb-8 text-center text-primary">
-        Klasyfikacja ramki pszczelej
+        Klasyfikator Ramek Pszczelarskich
       </h1>
-
       <Card>
         <CardHeader>
           <CardTitle>Załaduj zdjęcie</CardTitle>
@@ -110,9 +138,13 @@ export default function ImageClassification() {
             <img
               src={image}
               alt="Zaladowane zdjecie"
-              className="max-w-full h-auto rounded-lg shadow-lg mb-4"
+              className="max-w-full mx-auto h-auto rounded-lg shadow-lg mb-4"
             />
-            <Button variant="destructive" onClick={deleteImage} className="">
+            <Button
+              variant="destructive"
+              onClick={deleteImage}
+              className="w-full"
+            >
               Usuń zdjęcie
             </Button>
           </CardContent>
@@ -130,13 +162,15 @@ export default function ImageClassification() {
           <div className="flex flex-wrap gap-4">
             {[
               "Gaussowski Naiwny Bayes (GNB)",
-              "Maszyna Wektorów Nośnych (SVM)",
+              "Maszyna Wektorów Nośnych z uczeniem SGD (SVM)",
               "Splotowa Sieć Neuronowa - LesNet-5 (CNN)",
             ].map((model) => (
               <Button
                 key={model}
                 variant={selectedModel === model ? "default" : "outline"}
-                onClick={() => setSelectedModel(model)}
+                onClick={() => {
+                  setSelectedModel(model);
+                }}
                 className="flex-1"
               >
                 {model.charAt(0).toUpperCase() + model.slice(1)}
@@ -147,14 +181,21 @@ export default function ImageClassification() {
       </Card>
 
       <Button
-        onClick={classifyImage}
-        disabled={!image || isClassifying}
+        onClick={() => {
+          if (selectedModel == "Gaussowski Naiwny Bayes (GNB)") {
+            classifyImage("GNB");
+          } else if (
+            selectedModel == "Maszyna Wektorów Nośnych z uczeniem SGD (SVM)"
+          ) {
+            classifyImage("SVM");
+          } else {
+            classifyImage("CNN");
+          }
+        }}
         className="w-full mb-8"
       >
-        {isClassifying ? "Klasyfikacja..." : "Sklasyfikuj zdjęcie"}
+        Sklasyfikuj zdjęcie
       </Button>
-
-      {isClassifying && <Progress value={66} className="mb-8" />}
 
       {classificationResult && (
         <Alert>

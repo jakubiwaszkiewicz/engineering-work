@@ -1,0 +1,106 @@
+2024-11-26 22:12:34,355 - INFO - Training hardness model for fold 1...
+2024-11-26 22:14:43,432 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:14:43,435 - INFO - Hardness: {0: 7.5, 1: 77.2, 2: 15.3}
+2024-11-26 22:14:43,438 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:14:43,441 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:14:43,450 - INFO - Evaluating hardness model for fold 1...
+2024-11-26 22:15:11,261 - INFO - Fold 1 Balanced Accuracy (hardness): 0.325
+2024-11-26 22:15:11,802 - INFO - Training honey model for fold 1...
+2024-11-26 22:17:11,264 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:17:11,268 - INFO - Hardness: {0: 7.5, 1: 77.2, 2: 15.3}
+2024-11-26 22:17:11,271 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:17:11,274 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:17:11,284 - INFO - Evaluating honey model for fold 1...
+2024-11-26 22:17:37,876 - INFO - Fold 1 Balanced Accuracy (honey): 0.654
+2024-11-26 22:17:38,055 - INFO - Training capped model for fold 1...
+2024-11-26 22:19:37,014 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:19:37,017 - INFO - Hardness: {0: 7.5, 1: 77.2, 2: 15.3}
+2024-11-26 22:19:37,020 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:19:37,024 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:19:37,034 - INFO - Evaluating capped model for fold 1...
+2024-11-26 22:20:04,757 - INFO - Fold 1 Balanced Accuracy (capped): 0.725
+2024-11-26 22:20:05,053 - INFO - Training hardness model for fold 2...
+2024-11-26 22:22:14,435 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:22:14,437 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:22:14,440 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:22:14,443 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:22:14,453 - INFO - Evaluating hardness model for fold 2...
+2024-11-26 22:22:40,924 - INFO - Fold 2 Balanced Accuracy (hardness): 0.323
+2024-11-26 22:22:41,189 - INFO - Training honey model for fold 2...
+2024-11-26 22:24:37,765 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:24:37,768 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:24:37,771 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:24:37,775 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:24:37,784 - INFO - Evaluating honey model for fold 2...
+2024-11-26 22:25:04,078 - INFO - Fold 2 Balanced Accuracy (honey): 0.731
+2024-11-26 22:25:04,261 - INFO - Training capped model for fold 2...
+2024-11-26 22:27:03,520 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:27:03,524 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:27:03,526 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:27:03,529 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:27:03,539 - INFO - Evaluating capped model for fold 2...
+2024-11-26 22:27:32,020 - INFO - Fold 2 Balanced Accuracy (capped): 0.571
+2024-11-26 22:27:32,323 - INFO - Training hardness model for fold 3...
+2024-11-26 22:29:45,691 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:29:45,694 - INFO - Hardness: {0: 7.5, 1: 78.7, 2: 13.8}
+2024-11-26 22:29:45,697 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:29:45,700 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:29:45,709 - INFO - Evaluating hardness model for fold 3...
+2024-11-26 22:30:12,345 - INFO - Fold 3 Balanced Accuracy (hardness): 0.324
+2024-11-26 22:30:12,527 - INFO - Training honey model for fold 3...
+2024-11-26 22:32:11,934 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:32:11,938 - INFO - Hardness: {0: 7.5, 1: 78.7, 2: 13.8}
+2024-11-26 22:32:11,941 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:32:11,945 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:32:11,955 - INFO - Evaluating honey model for fold 3...
+2024-11-26 22:32:39,416 - INFO - Fold 3 Balanced Accuracy (honey): 0.697
+2024-11-26 22:32:39,600 - INFO - Training capped model for fold 3...
+2024-11-26 22:34:39,733 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:34:39,737 - INFO - Hardness: {0: 7.5, 1: 78.7, 2: 13.8}
+2024-11-26 22:34:39,740 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:34:39,743 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:34:39,753 - INFO - Evaluating capped model for fold 3...
+2024-11-26 22:35:06,865 - INFO - Fold 3 Balanced Accuracy (capped): 0.696
+2024-11-26 22:35:07,215 - INFO - Training hardness model for fold 4...
+2024-11-26 22:37:26,883 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:37:26,887 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:37:26,890 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:37:26,893 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:37:26,903 - INFO - Evaluating hardness model for fold 4...
+2024-11-26 22:37:54,568 - INFO - Fold 4 Balanced Accuracy (hardness): 0.413
+2024-11-26 22:37:54,983 - INFO - Training honey model for fold 4...
+2024-11-26 22:39:57,208 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:39:57,211 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:39:57,214 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:39:57,218 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:39:57,227 - INFO - Evaluating honey model for fold 4...
+2024-11-26 22:40:23,884 - INFO - Fold 4 Balanced Accuracy (honey): 0.648
+2024-11-26 22:40:24,076 - INFO - Training capped model for fold 4...
+2024-11-26 22:42:35,142 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:42:35,145 - INFO - Hardness: {0: 7.5, 1: 79.8, 2: 12.7}
+2024-11-26 22:42:35,149 - INFO - Honey: {0: 79.0, 1: 21.0}
+2024-11-26 22:42:35,153 - INFO - Capped: {0: 86.7, 1: 13.3}
+2024-11-26 22:42:35,166 - INFO - Evaluating capped model for fold 4...
+2024-11-26 22:43:05,344 - INFO - Fold 4 Balanced Accuracy (capped): 0.587
+2024-11-26 22:43:05,632 - INFO - Training hardness model for fold 5...
+2024-11-26 22:45:21,592 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:45:21,595 - INFO - Hardness: {0: 8.0, 1: 77.3, 2: 14.7}
+2024-11-26 22:45:21,598 - INFO - Honey: {0: 79.3, 1: 20.7}
+2024-11-26 22:45:21,601 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:45:21,610 - INFO - Evaluating hardness model for fold 5...
+2024-11-26 22:45:47,174 - INFO - Fold 5 Balanced Accuracy (hardness): 0.308
+2024-11-26 22:45:47,406 - INFO - Training honey model for fold 5...
+2024-11-26 22:47:44,970 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:47:44,973 - INFO - Hardness: {0: 8.0, 1: 77.3, 2: 14.7}
+2024-11-26 22:47:44,976 - INFO - Honey: {0: 79.3, 1: 20.7}
+2024-11-26 22:47:44,980 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:47:44,990 - INFO - Evaluating honey model for fold 5...
+2024-11-26 22:48:11,345 - INFO - Fold 5 Balanced Accuracy (honey): 0.638
+2024-11-26 22:48:11,546 - INFO - Training capped model for fold 5...
+2024-11-26 22:50:22,961 - INFO - --- Rozklad klas w zbiorze treningowym: ---
+2024-11-26 22:50:22,964 - INFO - Hardness: {0: 8.0, 1: 77.3, 2: 14.7}
+2024-11-26 22:50:22,967 - INFO - Honey: {0: 79.3, 1: 20.7}
+2024-11-26 22:50:22,971 - INFO - Capped: {0: 86.5, 1: 13.5}
+2024-11-26 22:50:22,983 - INFO - Evaluating capped model for fold 5...
+2024-11-26 22:50:48,848 - INFO - Fold 5 Balanced Accuracy (capped): 0.572
+2024-11-26 22:50:49,022 - INFO - Training and evaluation completed.

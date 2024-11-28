@@ -1,0 +1,72 @@
+2024-11-26 00:05:28,592 - INFO - Starting training process...
+2024-11-26 00:05:28,592 - INFO - Starting training process...
+2024-11-26 00:05:28,605 - INFO - --- Fold 1 ---
+2024-11-26 00:05:28,788 - INFO - --- Oversampled class distribution in the training set ---
+2024-11-26 00:05:28,794 - INFO - Hardness: {0: 40.0, 1: 60.0}
+2024-11-26 00:05:28,800 - INFO - Honey: {0: 40.0, 1: 60.0}
+2024-11-26 00:05:28,806 - INFO - Capped: {0: 80.0, 1: 20.0}
+2024-11-26 00:05:28,827 - INFO - --- Rozklad klas w zbiorze testowym: ---
+2024-11-26 00:05:28,827 - INFO - Hardness: {0: 7.0, 1: 93.0}
+2024-11-26 00:05:28,828 - INFO - Honey: {0: 79.1, 1: 20.9}
+2024-11-26 00:05:28,828 - INFO - Capped: {0: 86.0, 1: 14.0}
+2024-11-26 00:05:28,828 - INFO - Epoch 1/10
+2024-11-26 00:16:45,121 - INFO - Train Loss: 0.685, Hardness Accuracy: 0.966, Honey Accuracy: 0.993, Capped Accuracy: 0.986
+2024-11-26 00:16:45,121 - INFO - Hardness Balaced Accuracy: 0.964, Honey Balaced Accuracy: 0.993, Capped Balaced Accuracy: 0.976
+2024-11-26 00:17:05,638 - INFO - Test Loss: 52.525
+2024-11-26 00:17:05,638 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 00:17:05,638 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 00:17:06,051 - INFO - Epoch 2/10
+2024-11-26 00:31:13,710 - INFO - Train Loss: 0.320, Hardness Accuracy: 0.968, Honey Accuracy: 0.994, Capped Accuracy: 0.982
+2024-11-26 00:31:13,710 - INFO - Hardness Balaced Accuracy: 0.963, Honey Balaced Accuracy: 0.993, Capped Balaced Accuracy: 0.972
+2024-11-26 00:31:28,623 - INFO - Test Loss: 79.907
+2024-11-26 00:31:28,623 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 00:31:28,623 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 00:31:29,034 - INFO - Epoch 3/10
+2024-11-26 00:42:31,958 - INFO - Train Loss: 0.315, Hardness Accuracy: 0.956, Honey Accuracy: 0.994, Capped Accuracy: 0.982
+2024-11-26 00:42:31,959 - INFO - Hardness Balaced Accuracy: 0.948, Honey Balaced Accuracy: 0.994, Capped Balaced Accuracy: 0.974
+2024-11-26 00:42:47,447 - INFO - Test Loss: 44.754
+2024-11-26 00:42:47,447 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 00:42:47,447 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 00:42:47,881 - INFO - Epoch 4/10
+2024-11-26 00:53:54,272 - INFO - Train Loss: 0.291, Hardness Accuracy: 0.967, Honey Accuracy: 0.993, Capped Accuracy: 0.976
+2024-11-26 00:53:54,272 - INFO - Hardness Balaced Accuracy: 0.962, Honey Balaced Accuracy: 0.992, Capped Balaced Accuracy: 0.969
+2024-11-26 00:54:09,525 - INFO - Test Loss: 34.964
+2024-11-26 00:54:09,525 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 00:54:09,525 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 00:54:09,979 - INFO - Epoch 5/10
+2024-11-26 01:05:11,880 - INFO - Train Loss: 0.292, Hardness Accuracy: 0.965, Honey Accuracy: 0.992, Capped Accuracy: 0.981
+2024-11-26 01:05:11,881 - INFO - Hardness Balaced Accuracy: 0.960, Honey Balaced Accuracy: 0.991, Capped Balaced Accuracy: 0.974
+2024-11-26 01:05:27,069 - INFO - Test Loss: 23.567
+2024-11-26 01:05:27,069 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 01:05:27,069 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 01:05:27,501 - INFO - Epoch 6/10
+2024-11-26 01:16:35,582 - INFO - Train Loss: 0.291, Hardness Accuracy: 0.966, Honey Accuracy: 0.993, Capped Accuracy: 0.983
+2024-11-26 01:16:35,582 - INFO - Hardness Balaced Accuracy: 0.960, Honey Balaced Accuracy: 0.992, Capped Balaced Accuracy: 0.975
+2024-11-26 01:16:51,146 - INFO - Test Loss: 24.818
+2024-11-26 01:16:51,146 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 01:16:51,146 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 01:16:51,791 - INFO - Epoch 7/10
+2024-11-26 01:27:54,338 - INFO - Train Loss: 0.294, Hardness Accuracy: 0.968, Honey Accuracy: 0.992, Capped Accuracy: 0.978
+2024-11-26 01:27:54,338 - INFO - Hardness Balaced Accuracy: 0.962, Honey Balaced Accuracy: 0.992, Capped Balaced Accuracy: 0.971
+2024-11-26 01:28:09,694 - INFO - Test Loss: 20.611
+2024-11-26 01:28:09,694 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 01:28:09,694 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 01:28:10,119 - INFO - Epoch 8/10
+2024-11-26 01:39:14,464 - INFO - Train Loss: 0.300, Hardness Accuracy: 0.957, Honey Accuracy: 0.989, Capped Accuracy: 0.974
+2024-11-26 01:39:14,464 - INFO - Hardness Balaced Accuracy: 0.949, Honey Balaced Accuracy: 0.988, Capped Balaced Accuracy: 0.969
+2024-11-26 01:39:29,702 - INFO - Test Loss: 20.019
+2024-11-26 01:39:29,703 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 01:39:29,703 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 01:39:30,137 - INFO - Epoch 9/10
+2024-11-26 01:50:34,633 - INFO - Train Loss: 0.339, Hardness Accuracy: 0.961, Honey Accuracy: 0.983, Capped Accuracy: 0.967
+2024-11-26 01:50:34,633 - INFO - Hardness Balaced Accuracy: 0.954, Honey Balaced Accuracy: 0.983, Capped Balaced Accuracy: 0.963
+2024-11-26 01:50:49,918 - INFO - Test Loss: 20.405
+2024-11-26 01:50:49,918 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 01:50:49,918 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 01:50:50,449 - INFO - Epoch 10/10
+2024-11-26 02:02:00,066 - INFO - Train Loss: 0.484, Hardness Accuracy: 0.953, Honey Accuracy: 0.973, Capped Accuracy: 0.959
+2024-11-26 02:02:00,066 - INFO - Hardness Balaced Accuracy: 0.946, Honey Balaced Accuracy: 0.971, Capped Balaced Accuracy: 0.954
+2024-11-26 02:02:14,931 - INFO - Test Loss: 16.721
+2024-11-26 02:02:14,931 - INFO - Hardness Accuracy: 0.930, Honey Accuracy: 0.209, Capped Accuracy: 0.140
+2024-11-26 02:02:14,931 - INFO - Hardness Balaced Accuracy: 0.500, Honey Balaced Accuracy: 0.500, Capped Balaced Accuracy: 0.500
+2024-11-26 02:02:15,363 - INFO - --- Fold 1 Completed ---

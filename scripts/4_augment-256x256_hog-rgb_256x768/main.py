@@ -13,18 +13,16 @@ if not os.path.exists(output_dir):
 
 file_list = [f for f in os.listdir(input_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
-# Pobierz istniejące pliki w output_dir
 existing_files = sorted([f for f in os.listdir(output_dir) if f.startswith("HOG_RGB_")])
 
 def is_processed(filename, existing_files):
-    """Sprawdź, czy plik został już przetworzony, używając wyszukiwania binarnego."""
     target = f"HOG_RGB_{filename}"
     index = bisect_left(existing_files, target)
     return index < len(existing_files) and existing_files[index] == target
 
 for filename in tqdm(file_list, desc="Processing images"):
     if is_processed(filename, existing_files):
-        continue  # Pomiń przetwarzanie, jeśli plik już istnieje
+        continue
 
     image_path = os.path.join(input_dir, filename)
     image = cv2.imread(image_path)

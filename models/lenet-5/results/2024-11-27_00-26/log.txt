@@ -1,0 +1,6 @@
+2024-11-27 00:26:46,140 - INFO - Starting training process...
+2024-11-27 00:26:46,141 - INFO - Starting training process...
+2024-11-27 00:26:46,156 - INFO - --- Fold 1 ---
+2024-11-27 00:26:47,233 - INFO - Epoch 1/10
+2024-11-27 00:37:58,416 - INFO - Train Loss: 0.721, Hardness Accuracy: 0.967, Honey Accuracy: 0.992, Capped Accuracy: 0.988
+2024-11-27 00:37:58,416 - INFO - Hardness Balaced Accuracy: 0.965, Honey Balaced Accuracy: 0.992, Capped Balaced Accuracy: 0.981
